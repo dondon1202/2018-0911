@@ -1,0 +1,22 @@
+.abc {
+  color: red;
+}
+
+.abc.test {
+  color: white;
+}
+
+.bbc {
+  color: black;
+}
+
+.bbc .ccc {
+  color: red;
+}
+
+.bbc .ccc .ddd {
+  position: relative;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

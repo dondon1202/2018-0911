@@ -1,0 +1,1302 @@
+/* NAV-STYLE 導覽列設定*/
+
+.navbar {
+    padding: 5px 70px;
+    background-color: rgba(5, 27, 99, 0.658);
+}
+.navbar img {
+    width: 70px;
+    height: 35px;
+}
+.navbar .navbar-collapse .nav-item .nav-link {
+    padding: 20px 30px;
+    color: #fff;
+    font-size: 13px;
+}  
+.navbar .btn {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 35px;
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+.navbar .btn:hover {
+    color: #1A65B4;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PART-1 CSS */
+
+/*  背景色 */
+.part-1 {
+    background: linear-gradient(to right bottom, #131c47, #192152, #474c9a, #ac93d2);
+    overflow: hidden;
+}
+
+        /* PART-1 THEME-BOX */
+
+/* PART-1 THEME-BOX-版面切塊 */
+.part-1 .col-md-7 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+/* PART-1 THEME-BOX-BOX 內間距 */
+.part-1 .box {
+    padding: 150px 0px 50px 0px;
+}
+
+/* PART-1 THEME-BOX-標題H1 */
+.part-1 .box h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/* PART-1 THEME-BOX-標題H6 */
+.part-1 .box h6 {
+    font-size: 25px;
+    padding-top:  30px;
+    opacity: 0.85;
+}
+
+/* PART-1 THEME-BOX-綠色按鈕 AND HOVER */
+.part-1 .btn.green {
+    padding: 15px 50px;
+    font-size: 13px;
+    color: white;
+    background: #3ECF8E;
+    border-color: #3ECF8E;
+}
+.part-1 .btn.green:hover {
+    background: #30c381;
+}
+
+/* PART-1 THEME-BOX-綠色按鈕 <I> RIGHT-ARROW */
+.part-1 .btn.green i {
+    margin-left: 5px;
+}
+
+
+/* PART-1 THEME-BOX-大樓圖片 */
+.part-1 img {
+    margin-top: 150px;
+    width: 100%;
+    margin-bottom: -150px;
+    transform: scale(1.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PART-2 CSS */
+
+/*  背景色 */
+.part-2 {
+    background: linear-gradient(-180deg, #f2f7fb 60%, #FFFFFF 100%);
+}
+
+
+/* 調整卡片上移 */
+.part-2 .col-lg-4 {
+    margin-top: -150px;
+}
+
+/* PART-2 CARD-BOX  BOX-內間距 */
+.part-2 .card-box {
+    position: relative;
+    padding: 50px 0px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:0 4px 9px 0 rgba(23, 28, 33, 0.06);
+    background-color: white;
+    overflow: hidden;
+} 
+
+/* PART-2 CARD-TITLE */
+.part-2 .card-title {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* PART-2 PRIZE-BOX 包含 $ 209 /mo */
+.part-2 .prize-box {
+    margin-bottom: auto;
+}
+/* $ */
+.part-2 .prize-box .pricing-cost {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 60px 0px 30px 0px;
+}
+/* 299 */
+.part-2 .prize-box .pricing-currency {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 5px 20px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+/* /mo */
+.part-2 .prize-box .pricing-period {
+    font-size: 20px;
+    font-weight: bold;
+    color: #91929C;
+}
+
+/* CARD-H-LINE */
+.part-2 .h-line {
+    width: 50%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+    padding-bottom:  20px;
+    margin: 0 auto;
+}
+
+/* BILLED */
+.part-2 .billed {
+    opacity: 0.6;
+    font-size: 17px;
+    font-weight: bold;
+    padding:  20px 0px 10px 0px;    
+}
+
+/* SAVE */
+.part-2 .save {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* CARD-BOTTON */
+.part-2  button {
+    margin: 0 auto;
+    width: 70%;
+    padding: 12px 0px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+/* 左右CARD-BUTTON */
+.part-2 .btn.blue {
+    background: #00b4ff;
+    border: 2px solid #00b4ff;
+}
+/* 左右CARD-BUTTON-HOVER */
+.part-2 .btn.blue:hover {
+    background: #00adf5;
+}
+/* MIDDLE-CARD-BUTTON-COLOR */
+.part-2 .btn.green {
+    background: #3ECF8E;
+    border-color: #3ECF8E;
+}
+/* MIDDLE-CARD-BUTTON-COLOR-HOVER */
+.part-2 .btn.green:hover {
+    background: #30c381;
+}
+/* MIDDLE-CARD TRANSFORM */
+.part-2 .scale{
+    transform: scale(1.1);
+}
+/* MIDDLE-CARD-POPULAR */
+.part-2 .popular {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    width: 130px;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 28px;
+    transform: rotate(45deg);
+    background: #79A70A;
+    background: linear-gradient(#3ECF8E 0%, #3ECF8E 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* Access to VPN Zero traffic logs Free Email Account Easy to use Control Domain Forwarding */
+.part-2 .col-lg-11 {
+    margin: 0 auto;
+    color: gray;
+}
+/* <I>勾勾 */
+.part-2 .col-lg-11 i {
+    margin-right: 7px;
+}
+
+
+/* CONTENT-BOX */
+.part-2 .col-lg-7{
+    margin: 0 auto;
+}
+/* CONTENT-BOX 空間 */
+.part-2 .content-box {
+    text-align: center;
+    margin-top: 120px;
+}
+/* CONTENT-BOX H6標題*/
+.part-2 .content-box h6{
+    font-size: 35px;
+}
+/* CONTENT-BOX <P>*/
+.part-2 .content-box p{
+    font-size: 25px;
+    opacity: 0.6;
+    padding: 30px 0px 50px 0px;
+}
+
+/* <I-BOX> 空間 */
+/* .part-2 .tab-change {
+    box-shadow: 1px 1px 1px rgba(100, 83, 71, 0.082)
+} */
+
+
+/* <I-BOX> 空間 */
+.part-2 .tab-change i {
+    font-size: 70px;
+    color: rgba(165, 157, 157, 0.671);
+}
+/* <I-BOX> <DESCRIBE> */
+.part-2 .tab-change .i-describe {
+    font-size: 17px;
+    margin-top: 30px;
+    color: gray;
+}
+.part-2 .shadow-box{
+     padding: 30px 0px;
+     border-radius: 10px;
+     
+}
+.part-2 .col.btn.active .shadow-box{
+    background-color: #08e9e973;
+}
+.part-2 .col.btn.active:hover.shadow-box{
+    background-color: #08e9e9a2;
+}
+/* <I-BOX> 空間 HOVER I 跟 I-DESCRIBE 顏色變化*/
+.part-2 .col.btn:hover .shadow-box{
+    background-color: #08e9e92d;
+}
+.part-2 .col.btn.active:hover .shadow-box{
+    background-color: #08e9e9a2;
+}
+.part-2 .col.btn:hover i {
+    color:rgba(0, 179, 255, 0.938);
+}
+.part-2 .col.btn:hover .i-describe {
+    color:rgba(0, 179, 255, 0.938);
+}
+
+/* <I-BOX> 空間被點擊後  I 跟 I-DESCRIBE 顏色變化*/
+.part-2 .active .tab-change i {
+    color:rgba(0, 179, 255, 0.938);
+}
+.part-2 .active .tab-change .i-describe {
+    color:rgba(0, 179, 255, 0.938);
+}
+ 
+
+/*  <I-BOX> BORDER-BOTTOM */
+.part-2 .btn.col{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.050);
+    border-radius: 0px;    
+    transition: all .4s;
+    padding-bottom: 70px;
+  
+    
+}
+/*  <I-BOX> BORDER-BOTTOM + ACTIVE */
+.part-2 .btn.col.active{
+    border-bottom: 1px solid #00B4FF;   
+}
+
+/* 兩個三角形相疊 無ACTIVE時 */
+.part-2 .btn .triangle-b{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 10px 15px;
+    border-color: transparent transparent #00B4FF transparent;
+    position: absolute;
+    bottom: 0px;
+    /* left: calc((100% - 30px)/2); */
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.part-2 .btn .triangle-w{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 10px 15px;
+    border-color: transparent transparent rgba(250, 252, 253, 0.938) transparent;
+    position: absolute;
+    bottom: -1px;
+    /* left: calc((100% - 30px)/2); */
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 兩個三角形相疊 有ACTIVE時 */
+.part-2 .btn.active .triangle-b {
+    opacity: 1;   
+}
+.part-2 .btn.active .triangle-w {
+    opacity: 1;   
+}
+
+
+/* 三角形下面的左右文字區塊 */
+.part-2 .row.box-padding {
+    padding: 100px 0px;
+    margin: 0px;
+}
+/* 左邊區塊 */
+.part-2 .left-box h1 {
+    font-size: 26px;
+    /* letter-spacing: 1px; */
+    line-height: 35px;
+}
+/* 右邊區塊 */
+.part-2 .right-box h2 {
+    font-size: 26px;
+    font-weight: normal;
+    color: rgb(143, 77, 126);
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+.part-2 .right-box p {
+    font-size: 18px;
+    color: rgb(143, 77, 126);
+    line-height: 28px;
+}
+
+
+
+/* HOVER顯示三角形 */
+/* .part-2 .triangle-b{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 10px 15px;
+    border-color: transparent transparent #00B4FF transparent;
+    position: absolute;
+    bottom: 0;
+    left: 96px;
+    opacity: 0;
+    transition: all .2s;
+}
+.part-2 .triangle-w{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 10px 15px;
+    border-color: transparent transparent #fdfeff transparent;
+    position: absolute;
+    bottom: -1px;
+    left: 96px;
+    opacity: 0;
+    transition: all .4s;
+} 
+.part-2 .triangle-b:hover {
+    opacity: 1;   
+}
+.part-2 .triangle-w:hover{
+    opacity: 1;   
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PART-3 CSS */
+.part-3 {
+    background-image: radial-gradient(ellipse farthest-side at 100% 100%, #ffb29b 10%, #e56699 30%, #341e7e 109%);
+    text-align: center;
+}
+/* 標題區塊 */
+.part-3 .box-pd {
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.part-3 .box-pd h6 {
+    font-size:35px;
+    color: white;
+}
+.part-3 .box-pd p {
+    margin-top: 30px;
+    font-size:25px;
+    color: rgba(252, 248, 248, 0.76);
+}
+/* PART-3  卡片 */
+.part-3 .card-box {
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: left;
+    box-shadow: 0 4px 9px 0 rgba(23, 28, 33, 0.06);
+    border-radius: 6px;
+}
+/* 電腦LOGO */
+.part-3 .card-box i.fal.fa-desktop {
+    font-size: 50px;
+    color: steelblue;
+}
+/* 標題H6 */
+.part-3 .card-box h6 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 30px 0px;
+}
+
+/* 勾勾右邊的描述 */
+.part-3 .card-box .i-describe {
+    font-size: 16px;
+    color: rgb(98, 105, 105);
+}
+/* 勾勾LOGO */
+.part-3 .card-box i.far.fa-check-circle {
+    font-size: 16px;
+    color: rgba(4, 235, 108, 0.781);
+    margin-right: 15px;
+    margin-top: 15px;
+}
+/* 卡片下移 */
+.part-3 .row.mg-b .col-lg-6{
+    margin-bottom: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PART-4 CSS */
+.part-4 {
+    text-align: center;
+}
+/* 標題區塊 */
+.part-4 .col-lg-7 {
+    margin: 0 auto;
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+/* 標題H4 */
+.part-4 .box h4 {
+    font-size: 33px;
+    font-weight: bold;
+}
+/* 標題P */
+.part-4 .box p {
+    font-size: 22px;
+    margin: 30px 0px 50px 0px;
+    color: gray;
+}
+/* PART-4 THEME-BOX-綠色按鈕 AND HOVER */
+.part-4 .box .btn.green {
+    padding: 15px 50px;
+    font-size: 13px;
+    color: white;
+    background: #3ECF8E;
+    border-color: #3ECF8E;
+}
+.part-4 .box .btn.green:hover {
+    background: #30c381;
+}
+
+/* PART-4 THEME-BOX-綠色按鈕 <I> RIGHT-ARROW */
+.part-4 .box .btn.green i {
+    margin-left: 5px;
+}
+/* DIVICE圖片置中 */
+.part-4 .box-center{
+    margin: 0 auto;
+}
+/* DIVICE圖片寬度*/
+.part-4 img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/* PARD-4 CARD */
+.part-4 .computer-6-part {
+    padding-bottom: 70px;
+}
+.part-4 .card-box.row {
+    margin-bottom: 30px;
+}
+.part-4 .card-box {
+    text-align: left;
+    margin: 0 auto;
+}
+/* PARD-4 CARD I */
+.part-4 .card-box i{
+    font-size: 40px;
+    color: dodgerblue;
+}
+/* PARD-4 CARD-H6*/
+.part-4 .card-box h6 {
+    font-size: 16px;
+    font-weight: bold;
+}
+/* PARD-4 CARD-P*/
+.part-4 .card-box p {
+    font-size: 16px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PART-5 CSS */
+.part-5 {
+    background-image: radial-gradient(ellipse farthest-side at 100% 100%, #ffb29b 10%, #e56699 30%, #341e7e 109%);
+    text-align: center;
+}
+/* 標題區塊 */
+.part-5 .box-pd {
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.part-5 .box-pd h6 {
+    font-size:35px;
+    color: white;
+}
+.part-5 .box-pd p {
+    margin-top: 30px;
+    font-size:25px;
+    color: rgba(252, 248, 248, 0.76);
+}
+.part-5 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: -50px;
+}
+.part-5 .video{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PART-6 CSS */
+.part-6 {
+    background-color: #FFFFFF;
+    
+}
+/* 標題區塊 */
+.part-6 .box-pd {
+    margin: 0 auto;
+    padding: 130px 0px 50px 0px;
+    text-align: center;
+}
+.part-6 .box-pd h6 {
+    font-size:35px;
+}
+.part-6 .box-pd p {
+    margin-top: 30px;
+    font-size:25px;
+    color: gray;
+}   
+.part-6 .row.part-b {
+    padding: 50px 0px 100px 0px;
+}
+.part-6 .row.part-b h6 {
+    font-weight: bold;
+    font-size: 18px;
+}
+.part-6 .row.part-b p {
+    margin: 10px 0px 45px 0px;
+    color: #6B7C93;
+}
+
+
+
+
+
+
+
+
+
+
+/* PART-7 CSS */
+.part-7 .img.row p{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
+.part-7 .row.img{
+    padding-bottom: 100px;
+}
+.part-7 .row.img img {
+    opacity: 0.3;
+    filter: grayscale(100%);
+    transition: .6s all;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.part-7 .row.img img:hover{
+    opacity: 1;
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PART-8 CSS */
+
+/* PART-8背景色 */
+.part-8 {
+    background-image: radial-gradient(ellipse farthest-side at 100% 100%, #97c9d5 5%, #1b5494 60%, #1f2e5a 120%);
+}
+/* PART-8 上下空間 */
+.part-8 .row {
+    padding: 100px 0px;
+}
+
+.part-8 .row h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* PART-8 THEME-BOX-綠色按鈕 AND HOVER */
+.part-8 .box .btn.green {
+    padding: 15px 50px;
+    font-size: 13px;
+    color: white;
+    background: #3ECF8E;
+    border-color: #3ECF8E;
+    width: 100%;
+}
+.part-8 .box .btn.green:hover {
+    background: #30c381;
+}
+.part-8 .mr-sm-3, .mx-sm-3 {
+    margin: 0 !important;
+}
+.part-8 .form-control {
+    padding: 15px;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+.part-8 .row p {
+    color: #CCD6E6;
+    text-align: center;
+    margin-top: 30px;
+}
+.part-8 .col-lg-3.col-md-6.col-sm-6{
+    padding: 0px 7px;
+}
+.part-8 .box-out img {
+    width: 16%;
+    margin: 0 auto;
+    margin-left: 42%;
+    margin-top: 40px;
+}
+.part-8 .box-out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PART-9 CSS */
+/* PART-10 CSS */
+
+
+
+
+
+
+
+/* 媒體查詢，在螢幕解析度下低於_____px，設定該class在該解析度下之變化 */
+
+@media only screen and (max-width: 1199px){
+    /* PART-1 THEME-BOX-綠色按鈕 */
+    .part-1 .btn.green {
+        padding: 15px 50px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 991px){
+    .navbar .btn {
+        display: none;
+    }
+    .navbar-toggler{
+        position: absolute;
+        right: 70px;
+        top: 7px;
+    }
+
+
+
+    /* PART-1 THEME-BOX-綠色按鈕 */
+    .part-1 .btn.green {
+        padding: 15px 50px;
+        font-size: 12px;
+    }
+    .navbar button.navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #ebfaff;
+        border: 1px solid #06060600;
+        border-radius: 0.25rem;
+    }
+    .part-2 .col-lg-4 {
+        margin-top: 40px;
+    }
+    .part-2 .scale{
+        transform: scale(1);
+    }
+    /*max-width: 991px PART-1 THEME-BOX-大樓圖片 */
+    .part-1 img {
+        margin-top: 150px;
+        width: 100%;
+        margin-bottom: 0px;
+        transform: scale(1.6);
+    }
+    /*max-width: 991px PART-2背景顏色 */
+    .part-2 {
+        background: #F2F7FB;
+    }
+
+
+
+    /* max-width: 991px  調整卡片上移 */
+    .part-2 .move-up{
+        margin-top: -300px;
+    }
+
+    .part-3 .move-down{
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 767px){
+        /* 導覽列(最小視窗)時隱藏式選單(三條線)樣式設定 */    
+        .navbar button.navbar-toggler {
+            padding: 0.25rem 0.75rem;
+            font-size: 1.25rem;
+            line-height: 1;
+            background-color: #ebfaff;
+            border: 1px solid #06060600;
+            border-radius: 0.25rem;
+        }
+    /* PART-1 THEME-BOX-綠色按鈕 */
+    .part-1 .btn.green {   
+        padding: 15px 50px;
+        font-size: 12px;
+    }
+    /* Access to VPN Zero traffic logs Free Email Account Easy to use Control Domain Forwarding */
+    .part-2 .col-lg-12 .col {
+        flex: 100%;
+    }
+    .part-2 .col-lg-11 {
+        margin: 0 auto;
+        color: gray;
+    }
+    .part-2 .col-lg-11 i {
+        margin: 10px ;
+        font-size: 20px;
+    }
+    .part-2 .row.box-padding {
+      text-align: center;
+    }
+    .part-3 .move-down{
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 575px){
+    /* NAV-STYLE 導覽列設定*/
+    .navbar .navbar-collapse .nav-item .nav-link {
+        padding: 20px 10px;
+        color: #fff;
+        font-size: 13px;
+    }  
+    /*max-width: 575px 導覽列容器 */
+    .navbar {
+        padding: 5px 30px;
+        background-color: rgb(2, 27, 107);
+    }
+
+    /*max-width: 575px 導覽列右邊的按鈕樣式 */
+    .navbar .btn {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 5px 20px;
+        border: 2px solid rgba(255, 255, 255, 0.85);
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    /*max-width: 575px 導覽列右邊的按鈕在最小視窗時消失 */
+    .navbar button.my-2 {
+        display: none;
+    }
+
+    /*max-width: 575px 導覽列(最小視窗)時隱藏式選單(三條線)樣式設定 */    
+    .navbar button.navbar-toggler {
+        /* margin-left:  249px; */
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #ebfaff;
+        border: 1px solid #06060600;
+        border-radius: 0.25rem;
+        position: absolute;
+        right: 30px;
+        top: 7px;
+    }
+
+
+
+    /* PART-1 */
+
+    /*max-width: 575px PART-1 THEME-BOX-標題H1 */
+    .part-1 .box h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    /*max-width: 575px PART-1 THEME-BOX-標題H6 */       
+    .part-1 .box h6 {
+        font-size: 20px;
+        padding-top:  30px;
+    }
+
+    /*max-width: 575px PART-1 THEME-BOX-綠色按鈕 */
+    .part-1 .btn.green {
+        padding: 15px 50px;
+        font-size: 12px;
+        
+    }
+
+    /*max-width: 575px PART-1 THEME-BOX-大樓圖片 */
+    .part-1 img {
+        margin-top: 100px;
+        width: 100%;
+        margin-bottom: 0px;
+        transform: scale(1.8);
+    }
+    /*max-width: 575px PART-2背景顏色 */
+    .part-2 {
+        background: #F2F7FB;
+    }
+    /*max-width: 575px MIDDLE-CARD TRANSFORM */
+    .part-2 .scale {
+        transform: scale(1.0);
+    }
+
+    /* max-width: 575px  調整卡片上移 */
+    .part-2 .move-up{
+        margin-top: -100px;
+    }
+    /* Access to VPN Zero traffic logs Free Email Account Easy to use Control Domain Forwarding */
+    .part-2 .col-lg-11 {
+        margin: 0 auto;
+        color: gray;
+    }
+    .part-2 .col-lg-11 i {
+        margin: 10px ;
+        font-size: 20px;
+    }
+
+    /* CONTENT-BOX */
+    
+    .part-2 .content-box {
+        text-align: center;
+        margin-top: 60px;
+    }
+    .part-2 .content-box h6{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .part-2 .content-box p{
+        font-size: 20px;
+        opacity: 0.6;
+        padding: 30px 0px 30px 0px;
+    }
+    /*  <I-BOX> BORDER-BOTTOM */
+    .part-2 .btn.col{
+        padding-bottom: 30px;
+        margin: -15px 30px 50px 30px;
+    }
+
+    .part-2 .tab-change i {
+      display: none;
+    }
+    .part-2 .row.box-padding {
+        padding: 30px 15px 50px 15px;
+        margin: 0px;
+    }
+
+    
+    .part-2 .tab-change .i-describe {
+        font-size: 15px;
+        margin-top: 0px;
+        color: gray;
+    }
+    .part-2 .shadow-box{
+        padding: 10px 0px;
+    }
+    /* 兩個三角形相疊 無ACTIVE時 */
+    /* .part-2 .btn .triangle-b{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 15px 10px 15px;
+        border-color: transparent transparent #00B4FF transparent;
+        position: absolute;
+        bottom: 0px;
+        left: 45%;
+        opacity: 0;
+      
+        
+    }
+    .part-2 .btn .triangle-w{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 15px 10px 15px;
+        border-color: transparent transparent rgba(250, 252, 253, 0.938) transparent;
+        position: absolute;
+        bottom: -1.5px;
+        left: 45%;
+        opacity: 0;
+      
+    } */
+    /* 三角形下面的左右文字區塊 */
+     
+    .part-2 .left-box h1 {
+        font-size: 22px;
+        /* letter-spacing: 1px; */
+        line-height: 35px;
+    }
+    .part-2 .right-box h2 {
+        font-size: 20px;
+        font-weight: normal;
+        color: rgb(143, 77, 126);
+        line-height: 35px;
+        padding: 30px 15px;
+    }
+    .part-2 .right-box p {
+        font-size: 16px;
+        color: rgb(143, 77, 126);
+        line-height: 28px;
+    }
+    .part-3 .card-box {
+        background-color: white;
+        border-radius: 5px;
+        padding: 30px;
+        text-align: left;
+        box-shadow: 0 4px 9px 0 rgba(23, 28, 33, 0.06);
+        border-radius: 6px;
+    }
+    .part-3 .card-box .i-describe {
+        font-size: 14px;
+        color: rgb(98, 105, 105);
+    }
+    .part-3 .card-box i.far.fa-check-circle {
+        font-size: 14px;
+        color: rgba(4, 235, 108, 0.781);
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    .part-3 .move-down{
+        margin-top: 80px;
+    }
+
+    /* 標題區塊 */
+    .part-4 .col-lg-7 {
+        margin: 0 auto;
+        margin-top: 120px;
+        margin-bottom: 100px;
+        padding: 0px 15px;
+    }
+    /* 標題H4 */
+    .part-4 .box h4 {
+        font-size: 26px;
+        font-weight: bold;
+        
+    }
+    /* 標題P */
+    .part-4 .box p {
+        font-size: 18px;
+        margin: 30px 0px 50px 0px;
+        color: gray;
+    }
+
+    /* PARD-4 CARD */
+    .part-4 .card-box {
+        text-align: center;
+    }
+    /* PARD-4 CARD I */
+    .part-4 .card-box i{
+        font-size: 40px;
+        color: dodgerblue;
+        margin-top: 10px;
+        
+    }
+    /* PARD-4 CARD-H6*/
+    .part-4 .card-box h6 {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 20px;
+        
+    }
+    /* PARD-4 CARD-P*/
+    .part-4 .card-box p {
+        font-size: 15px;
+        color: gray;
+        margin-top: 10px;
+        
+    }
+
+
+    /* 標題區塊 */
+    .part-5 .box-pd {
+        margin: 0 auto;
+        padding: 100px 0px 50px 0px;
+    }
+    .part-5 .box-pd h6 {
+        font-size: 26px;
+        color: white;
+    }
+    .part-5 .box-pd p {
+        margin-top: 30px;
+        font-size:18px;
+        color: rgba(252, 248, 248, 0.76);
+    }
+    /* 標題區塊 */
+    .part-6 .box-pd {
+        margin: 0 auto;
+        padding: 130px 0px 0px 0px;
+        text-align: center;
+    }
+    .part-6 .box-pd h6 {
+        font-size: 26px;
+    }
+    .part-6 .box-pd p {
+        margin-top: 30px;
+        font-size: 18px;
+        color: gray;
+    }   
+
+
+
+    .part-6 .row.part-b {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .part-7 .row.img {
+        padding-bottom: 50px;
+    }
+
+
+    .part-8 .row {
+        padding: 100px 23px;
+    }
+    .part-8 .row h1 {
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .part-8 .form-control {
+        padding: 15px;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .part-8 .box-out img {
+        width: 22%;
+        margin: 0 auto;
+        margin-left: 39%;
+        margin-top: 40px;
+    }
+}
